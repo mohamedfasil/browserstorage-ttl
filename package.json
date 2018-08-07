@@ -19,7 +19,11 @@
     "sessionstorage",
     "session",
     "local",
-    "cache"
+    "cache",
+    "ttl",
+    "state",
+    "key-value",
+    "expire"
   ],
   "author": "Mohamed Fasil",
   "license": "MIT",
