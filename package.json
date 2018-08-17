@@ -1,6 +1,6 @@
 {
   "name": "browserstorage-ttl",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Localstorage with time to live / expiry, if expiry is zero uses SessionStorage",
   "main": "Storage.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mohamedfasil/react-goals/browserstorage-ttl"
+    "url": "https://github.com/mohamedfasil/browserstorage-ttl"
   },
   "keywords": [
     "localstorage",
@@ -26,7 +26,7 @@
     "expire"
   ],
   "author": "Mohamed Fasil",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
