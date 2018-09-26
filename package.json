@@ -1,6 +1,6 @@
 {
   "name": "browserstorage-ttl",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Localstorage with time to live / expiry, if expiry is zero uses SessionStorage",
   "main": "Storage.js",
   "scripts": {

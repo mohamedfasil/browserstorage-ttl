@@ -23,7 +23,7 @@ class Storage {
       }
       record = JSON.parse(localStorage.getItem(item));
       if (record && new Date().getTime() < record.timestamp) {
-        return JSON.parse(record.value);
+        return record.value;
       }
       this.remove(item);
     }
@@ -42,6 +42,9 @@ class Storage {
       try {
         if (ttl === 0) {
           sessionStorage.setItem(item, value);
+          if (localStorage.getItem(item)) {
+            localStorage.removeItem(item);
+          }
           return true;
         }
         const ttlMilliSec = ttl * 60 * 1000;
