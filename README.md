@@ -1,4 +1,6 @@
-# browserstorage-ttl
+# browserstorage-ttl 
+[![npm version](https://badge.fury.io/js/browserstorage-ttl.svg)](//npmjs.com/package/browserstorage-ttl)
+
 Localstorage with time to live / expiry, if expiry is zero uses SessionStorage
 
 # Usage
